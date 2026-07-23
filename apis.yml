@@ -1,7 +1,25 @@
 aid: axend
 name: Axend
-description: Axend is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Axend is an online investment marketplace that connects individual investors in Latin
+  America with private company and project investment opportunities. Operating as an aggregator, it
+  partners with allied investment platforms and earns commissions when users register or transact
+  through them. The platform provides portfolio-building tools to analyze projects by industry,
+  timeline, and expected return, personalized support for managing capital, and dynamic
+  reconfiguration so investors can adjust their preferences to optimize financial performance. Axend
+  is a portfolio company of 500 Global. It exposes no public API, developer documentation, or SDKs at
+  this time.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://axend.io/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/axend/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Investing
+- Fintech
+- Investment Marketplace
+- Portfolio Management
+- Latin America
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/axend-domain-security.yml
 - type: Website
   url: https://axend.io
+- type: Blog
+  url: https://blog.axend.io
+- type: TermsOfService
+  url: https://axend.io/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://axend.io/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
