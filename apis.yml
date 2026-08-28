@@ -8,6 +8,17 @@ description: Axend is an online investment marketplace that connects individual 
   reconfiguration so investors can adjust their preferences to optimize financial performance. Axend
   is a portfolio company of 500 Global. It exposes no public API, developer documentation, or SDKs at
   this time.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
