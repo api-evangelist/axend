@@ -46,7 +46,7 @@ tags:
 - Investing
 - Fintech
 - Investment Marketplace
-- Portfolio-Management
+- Portfolio Management
 - Latin America
 tags_raw:
 - Company
@@ -55,6 +55,7 @@ tags_raw:
 - Investment Marketplace
 - Portfolio Management
 - Latin America
+- Portfolio-Management
 apis: []
 maintainers:
 - FN: Kin Lane
